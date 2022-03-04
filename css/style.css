@@ -173,8 +173,7 @@ header li a:hover{
 
 /* CSS Footer - Copyright*/
 #copyright{
-  height: 50px;
-  background-color: purple;
+  text-align: center;
 }
 
 /* 
