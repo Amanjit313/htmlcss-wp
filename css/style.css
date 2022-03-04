@@ -70,10 +70,29 @@ header li a:hover{
   Inizio CSS Main
 */
 
-/* CSS Main - Interfaccia*/
-#interfaccia{
-  height: 400px;
-  background-color: goldenrod;
+/* CSS Main - Jumbotron*/
+#jumbotron{
+  height: 425px;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#jumbotron-bg{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+#jumbotron-bg h4,p{
+  color: white;
+  margin-left: 40px;
+  width: 55%;
+}
+
+#jumbotron-bg h4{
+  font-size: 30px;
+  padding-top: 250px;
 }
 
 /* CSS Main - Descrizione*/
