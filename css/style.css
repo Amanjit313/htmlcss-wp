@@ -84,7 +84,7 @@ header li a:hover{
   height: 100%;
 }
 
-#jumbotron-bg h4,p{
+#jumbotron-bg h4, #jumbotron-bg p{
   color: white;
   margin-left: 40px;
   width: 55%;
@@ -96,16 +96,39 @@ header li a:hover{
 }
 
 /* CSS Main - Descrizione*/
-#descrizione{
-  height: 500px;
-  background-color: blue;
-}
 
 /* CSS Main - Descrizione - Contenente*/
 #descr-titolo{
-  height: 80px;
-  background-color: #ABCFE7;
   margin-bottom: 20px;
+}
+
+#descr-titolo h2{
+  font-size: 30px;
+}
+
+#descr-titolo p{
+  color: #9B9B9B;
+}
+
+.icon-size{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.icon-color{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.text-title{
+  margin: 10px 0;
+}
+
+.text{
+  color: #9B9B9B;
 }
 
 .col,.col-ct{
@@ -114,25 +137,32 @@ header li a:hover{
 }
 
 .col{
-  width: 19%;
-  height: 380px;
-  background-color: #ABCFE7;
+  width: 18%;
 }
 
 .col-sx{
-  margin-right: 1%;
+  margin-right: 2%;
+}
+
+.plant{
+  background-image: url("../img/img-1.jpg");
 }
 
 .col-ct{
   width: 60%;
-  height: 380px;
-  background-color: #ABCFE7;
+}
+
+.computer{
+  background-image: url("../img/banner-2.jpg");
 }
 
 .col-dx{
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
+.lamp{
+  background-image: url("../img/img-3.jpg");
+}
 /* 
   Fine CSS Main
 */
